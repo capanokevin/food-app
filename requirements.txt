@@ -7,3 +7,4 @@ tqdm==4.19.6
 utils
 matplotlib
 timm
+nltk
