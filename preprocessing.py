@@ -12,10 +12,9 @@ random.seed(1234)
 import pickle
 from PIL import Image
 import torch
-from torch.utils.data import Dataset
-from utils.utils import get_token_ids, list2Tensors
-import torchvision.transforms as transforms
+from torch.utils.data import *
 from utils import *
+import torchvision.transforms as transforms
 import multiprocessing
 import nltk
 import hashlib 
