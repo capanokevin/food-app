@@ -40,7 +40,7 @@ class RecipeSnap(object):
         # Nutritional components prediction
         self.resize_img = transforms.Compose([transforms.Resize((512, 512)), transforms.ToTensor()])
         self.hydra = Hydra()#.to(self.device)
-        self.hydra.load_state_dict(torch.load(r'\best_model_4channel_prova2_c.pt',map_location=torch.device('cpu')))
+        self.hydra.load_state_dict(torch.load('\best_model_4channel_prova2_c.pt',map_location=torch.device('cpu')))
         
         # Recipe prediction for dashboard
         self.preprocess_recipe = transforms.Compose([transforms.Resize(256), transforms.CenterCrop(224), transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))])
