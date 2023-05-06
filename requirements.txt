@@ -1,4 +1,4 @@
 torch>=1.7
 torchvision
 plotly
-cv2
+opencv-python-headless==4.5.5.64
