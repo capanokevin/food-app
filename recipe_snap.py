@@ -11,9 +11,8 @@ from collections import defaultdict
 from recipe_encoder import * 
 from image_encoder import *
 from HydraNet import *
-#from utils.preprocessing import get_image_loader, get_recipe_loader, recipe_preprocessing 
-#from utils.utils import load_checkpoint, count_parameters
-from utils import get_image_loader, get_recipe_loader, recipe_preprocessing , load_checkpoint, count_parameters
+from utils.preprocessing import get_image_loader, get_recipe_loader, recipe_preprocessing 
+from utils.utils import load_checkpoint, count_parameters
 import shutil
 from torchvision import transforms
 
