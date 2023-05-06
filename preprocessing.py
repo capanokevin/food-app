@@ -15,7 +15,7 @@ import torch
 from torch.utils.data import Dataset
 from utils.utils import get_token_ids, list2Tensors
 import torchvision.transforms as transforms
-from torch.utils.data import DataLoader
+from utils import *
 import multiprocessing
 import nltk
 import hashlib 
