@@ -10,15 +10,9 @@ from PIL import Image
 from tqdm import tqdm
 from sklearn.metrics import pairwise_distances
 from collections import defaultdict
-from recipe_encoder import * 
-from image_encoder import *
-from utils import *
-#from utils.preprocessing import get_image_loader, get_recipe_loader, recipe_preprocessing 
-#from utils.utils import load_checkpoint, count_parameters
 import shutil
-
 import torchvision.models as models
-from collections import OrderedDict
+
 
 
 
