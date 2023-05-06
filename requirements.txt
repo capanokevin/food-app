@@ -6,3 +6,4 @@ scikit-learn>=0.18
 tqdm==4.19.6
 utils
 matplotlib
+timm
