@@ -34,10 +34,12 @@ Before proceeding with the deployment, ensure that you have the following prereq
 2. Locate the following lines in the script:
 
    ```python
-   image_dir = '\images'
-   checkpoint_dir = "\checkpoints\model"
-   recipe_emb_path = "\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
-   recipe_dict_path = "\data\recipe_dict\test.pkl"
+   line 22: image_dir = '\images'
+   line 23: checkpoint_dir = "\checkpoints\model"
+   line 24: recipe_emb_path = "\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
+   line 25: recipe_dict_path = "\data\recipe_dict\test.pkl"
+   
+   line 129 : '..\dashboard_image\dashboard_image.jpg'
    ```
 
    Replace these paths with the appropriate paths on your own machine where the required files and directories are located.
