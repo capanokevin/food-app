@@ -46,7 +46,7 @@ Before proceeding with the deployment, ensure that you have the following prereq
    
    Open the Python script file named `recipe_snap.py` and go to line 205. Replace the following path:
    ```python
-   ".\dashboard_image"
+   "..\dashboard_image"
    ```
    with the appropriate path on your own machine where this folder is located.
 
