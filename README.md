@@ -1,5 +1,3 @@
-# food-app
-
 # Server App Deployment Guide
 
 This guide provides instructions for deploying the server app on your own machine. Follow the steps below to set up the necessary environment and run the application.
@@ -64,5 +62,3 @@ Before proceeding with the deployment, ensure that you have the following prereq
 10. Enjoy using the server app to analyze food images and explore recipe and nutritional information!
 
 Note: Make sure to keep the terminal or command prompt open while running the server app. If you want to stop the app, press `Ctrl + C` in the terminal or command prompt.
-
-Please let me know if you need any further assistance!
