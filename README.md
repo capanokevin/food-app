@@ -39,7 +39,7 @@ Before proceeding with the deployment, ensure that you have the following prereq
    line 24: recipe_emb_path = "\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
    line 25: recipe_dict_path = "\data\recipe_dict\test.pkl"
    
-   line 129 : '..\dashboard_image\dashboard_image.jpg'
+   line 129: '..\dashboard_image\dashboard_image.jpg'
    ```
 
    Replace these paths with the appropriate paths on your own machine where the required files and directories are located.
@@ -47,7 +47,7 @@ Before proceeding with the deployment, ensure that you have the following prereq
    Open the Python script file named `recipe_snap.py` and go to line 205. Replace the following paths:
    ```python
    line 205: "..\dashboard_image"
-   line 42: "best_model_4channel_prova2_c.pt"
+   line 42:  "best_model_4channel_prova2_c.pt"
    ```
    with the appropriate paths on your own machine, where the folder and model weights are located.
 
