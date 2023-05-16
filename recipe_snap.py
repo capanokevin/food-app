@@ -202,7 +202,7 @@ class RecipeSnap(object):
 
     
     def predict_dashboard(self, image, max_k=5):
-        loader, dataset = self.load_image(r'C:\Users\kevin\Desktop\Università\DataScience\Stage\dashboard_image')
+        loader, dataset = self.load_image(r'..\dashboard_image')
         img_embs, img_names = self.compute_image_embedding(loader)
         dists = pairwise_distances(img_embs, self.recipe_embs, metric='cosine') 
         retrieved_idxs_recs = np.argpartition(dists, range(max_k), axis=-1)[:,:max_k] # retrieve top-k recipes in efficient way
