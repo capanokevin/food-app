@@ -19,11 +19,10 @@ import cv2
 
 
 # for recipe-nutrient estimation
-image_dir = r'C:\Users\kevin\Desktop\Università\DataScience\Stage\RecipeSnap-a-lightweight-image-to-recipe-model-master\images'
-checkpoint_dir = r"C:\Users\kevin\Desktop\Università\DataScience\Stage\RecipeSnap-a-lightweight-image-to-recipe-model-master\checkpoints\model"
-recipe_emb_path = r"C:\Users\kevin\Desktop\Università\DataScience\Stage\RecipeSnap-a-lightweight-image-to-recipe-model-master\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
-recipe_dict_path = r"C:\Users\kevin\Desktop\Università\DataScience\Stage\RecipeSnap-a-lightweight-image-to-recipe-model-master\data\recipe_dict\test.pkl"
-#hydra_weights_path = r"/datasets/data5/recipe_snap/RecipeSnap-a-lightweight-image-to-recipe-model-master/Calories Estimation/best_model.pt"
+image_dir = r'..\images'
+checkpoint_dir = r"..\checkpoints\model"
+recipe_emb_path = r"..\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
+recipe_dict_path = r"..\data\recipe_dict\test.pkl"
 rs = RecipeSnap(checkpoint_dir=checkpoint_dir)
 rs.load_image_encoder()
 rs.load_recipe_lib(recipe_emb_path = recipe_emb_path, recipe_dict_path = recipe_dict_path)
@@ -126,8 +125,8 @@ if __name__ == '__main__':
 			img_tensor_np = np.array(img_pil)
 				# show image
 			st.image(img_pil, caption=f'Uploaded Image.', use_column_width=True)
-				# save image in folder 'C:\Users\kevin\Desktop\Università\DataScience\Stage\dashboard_image'
-			img_pil.save(r'C:\Users\kevin\Desktop\Università\DataScience\Stage\dashboard_image\dashboard_image.jpg')
+				# save image in folder 
+			img_pil.save(r'..\dashboard_image\dashboard_image.jpg')
 				# predict variables
 			food_vars, recipe = predict_vars(img_tensor_np, food_rda)
 				# statistics: 'calories_100', 'total_mass', 'fat_100', 'carb_100', 'protein_100'
