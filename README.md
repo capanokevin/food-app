@@ -19,7 +19,7 @@ Before proceeding with the deployment, ensure that you have the following prereq
 
 2. Change your current directory to the cloned repository:
    ```
-   cd https://github.com/capanokevin/food-app.git
+   cd food-app
    ```
 
 3. Install the required Python packages by running the following command:
