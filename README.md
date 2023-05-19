@@ -29,17 +29,18 @@ Before proceeding with the deployment, ensure that you have the following prereq
 
 ## Usage
 
-1. Open the Python script file named `server_app.py` in a text editor.
+1. Open the Python script file named `food.py` in a text editor.
 
 2. Locate the following lines in the script:
 
    ```python
-   line 22: image_dir = '\images'
-   line 23: checkpoint_dir = "\checkpoints\model"
-   line 24: recipe_emb_path = "\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
-   line 25: recipe_dict_path = "\data\recipe_dict\test.pkl"
+   line 27: image_dir = '\images'
+   line 28: checkpoint_dir = "\checkpoints\model"
+   line 29: recipe_emb_path = "\data\recipe_embeddings\recipe_embeddings_feats_test.pkl" 
+   line 30: recipe_dict_path = "\data\recipe_dict\test.pkl"
    
-   line 129: '..\dashboard_image\dashboard_image.jpg'
+   line 133: '..\dashboard_image\dashboard_image.jpg'
+   line 149: '..\collected_images\'
    ```
 
    Replace these paths with the appropriate paths on your own machine where the required files and directories are located.
@@ -55,7 +56,7 @@ Before proceeding with the deployment, ensure that you have the following prereq
 
 4. Run the server app by executing the following command in the terminal or command prompt:
    ```
-   streamlit run server_app.py
+   streamlit run 'path to where is stored food.py'
    ```
 
 5. The server app should now be running locally on your machine.
