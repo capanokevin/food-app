@@ -16,7 +16,6 @@ from torch.utils.data import *
 from utils import *
 import torchvision.transforms as transforms
 import multiprocessing
-!pip install nltk
 import nltk
 import hashlib 
 
