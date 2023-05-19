@@ -56,7 +56,7 @@ Before proceeding with the deployment, ensure that you have the following prereq
 
 4. Run the server app by executing the following command in the terminal or command prompt:
    ```
-   streamlit run 'path to where is stored food.py'
+   streamlit run 'path where food.py is stored'
    ```
 
 5. The server app should now be running locally on your machine.
