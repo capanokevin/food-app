@@ -14,12 +14,12 @@ Before proceeding with the deployment, ensure that you have the following prereq
 
 1. Clone the repository by running the following command in your terminal or command prompt:
    ```
-   git clone <repository_url>
+   git clone [<repository_url>](https://github.com/capanokevin/food-app.git)
    ```
 
 2. Change your current directory to the cloned repository:
    ```
-   cd <repository_directory>
+   cd [<repository_directory>](https://github.com/capanokevin/food-app.git)
    ```
 
 3. Install the required Python packages by running the following command:
